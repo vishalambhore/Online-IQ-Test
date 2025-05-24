@@ -1,0 +1,170 @@
+const questions = [
+    {
+      id: 1,
+      question: "What does CPU stand for?",
+      options: [
+        "Central Processing Unit",
+        "Computer Personal Unit",
+        "Central Processor Utility",
+        "Control Processing Unit",
+      ],
+      answer: "Central Processing Unit",
+    },
+    {
+      id: 2,
+      question: "Which programming language is known as the mother of all languages?",
+      options: ["C", "Python", "Assembly", "Java"],
+      answer: "C",
+    },
+    {
+      id: 3,
+      question: "What is the full form of RAM?",
+      options: ["Read Access Memory", "Random Access Memory", "Rapid Action Memory", "Run Access Memory"],
+      answer: "Random Access Memory",
+    },
+    {
+      id: 4,
+      question: "What is the brain of the computer?",
+      options: ["RAM", "Hard Drive", "CPU", "Power Supply"],
+      answer: "CPU",
+    },
+    {
+      id: 5,
+      question: "Which company developed Java?",
+      options: ["Microsoft", "Apple", "Sun Microsystems", "Google"],
+      answer: "Sun Microsystems",
+    },
+    {
+      id: 6,
+      question: "What is the full form of HTTP?",
+      options: [
+        "HyperText Transfer Protocol",
+        "HyperTransfer Text Protocol",
+        "Hyper Transfer Process",
+        "High Transmission Text Protocol",
+      ],
+      answer: "HyperText Transfer Protocol",
+    },
+    {
+      id: 7,
+      question: "Which of the following is NOT a programming language?",
+      options: ["Python", "HTML", "Java", "C++"],
+      answer: "HTML",
+    },
+    {
+      id: 8,
+      question: "What does GPU stand for?",
+      options: [
+        "General Processing Unit",
+        "Graphical Processing Unit",
+        "Gaming Processing Unit",
+        "Graphical Performance Utility",
+      ],
+      answer: "Graphical Processing Unit",
+    },
+    { id: 9, question: "Which type of memory is volatile?", options: ["ROM", "RAM", "SSD", "HDD"], answer: "RAM" },
+    {
+      id: 10,
+      question: "Which symbol is used for comments in JavaScript?",
+      options: ["//", "/* */", "#", "--"],
+      answer: "//",
+    },
+    {
+      id: 11,
+      question: "Which of these is a frontend framework?",
+      options: ["Django", "Flask", "React", "Node.js"],
+      answer: "React",
+    },
+    {
+      id: 12,
+      question: "Which data structure uses LIFO?",
+      options: ["Queue", "Array", "Stack", "Linked List"],
+      answer: "Stack",
+    },
+    { id: 13, question: "Which is the fastest storage?", options: ["HDD", "SSD", "RAM", "CD"], answer: "RAM" },
+    {
+      id: 14,
+      question: "What does SQL stand for?",
+      options: [
+        "Structured Query Language",
+        "Standard Query Logic",
+        "Sequential Query Language",
+        "System Query Language",
+      ],
+      answer: "Structured Query Language",
+    },
+    {
+      id: 15,
+      question: "Which company owns GitHub?",
+      options: ["Google", "Microsoft", "Apple", "Facebook"],
+      answer: "Microsoft",
+    },
+    {
+      id: 16,
+      question: "Which CSS property is used for animation?",
+      options: ["transition", "animation", "animate", "effect"],
+      answer: "animation",
+    },
+    {
+      id: 17,
+      question: "What is the latest HTML version?",
+      options: ["HTML3", "HTML4", "HTML5", "HTML6"],
+      answer: "HTML5",
+    },
+    {
+      id: 18,
+      question: "Which of these is a relational database?",
+      options: ["MongoDB", "PostgreSQL", "Redis", "Neo4j"],
+      answer: "PostgreSQL",
+    },
+    {
+      id: 19,
+      question: "Which of these is a cloud service provider?",
+      options: ["AWS", "Linux", "TensorFlow", "Docker"],
+      answer: "AWS",
+    },
+    {
+      id: 20,
+      question: "What is the output of 2+2 in JavaScript?",
+      options: ["22", "4", "undefined", "NaN"],
+      answer: "4",
+    },
+    {
+      id: 21,
+      question: "Which of these is an interpreted language?",
+      options: ["C", "C++", "Python", "Assembly"],
+      answer: "Python",
+    },
+    {
+      id: 22,
+      question: "Which technology is used for responsive web design?",
+      options: ["Bootstrap", "Java", "C#", "Flask"],
+      answer: "Bootstrap",
+    },
+    {
+      id: 23,
+      question: "What does API stand for?",
+      options: [
+        "Application Programming Interface",
+        "Automated Process Integration",
+        "Advanced Processing Input",
+        "Algorithm Process Indicator",
+      ],
+      answer: "Application Programming Interface",
+    },
+    {
+      id: 24,
+      question: "Which tag is used for creating a hyperlink in HTML?",
+      options: ["<a>", "<link>", "<href>", "<hyper>"],
+      answer: "<a>",
+    },
+    {
+      id: 25,
+      question: "Which is a NoSQL database?",
+      options: ["MySQL", "PostgreSQL", "MongoDB", "OracleDB"],
+      answer: "MongoDB",
+    },
+  ]
+  
+  export default questions
+  
